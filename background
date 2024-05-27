@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Background</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 24px;
+        }
+        #section1 {
+            background-color: #3498db; /* Blue */
+        }
+        #section2 {
+            background-color: #2ecc71; /* Green */
+        }
+        #section3 {
+            background-color: #e74c3c; /* Red */
+        }
+        #section4 {
+            background-color: #f39c12; /* Orange */
+        }
+    </style>
+</head>
+<body>
+    <div id="section1" class="section">
+        <p>Section 1</p>
+    </div>
+    <div id="section2" class="section">
+        <p>Section 2</p>
+    </div>
+    <div id="section3" class="section">
+        <p>Section 3</p>
+    </div>
+    <div id="section4" class="section">
+        <p>Section 4</p>
+    </div>
+</body>
+</html>
